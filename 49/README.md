@@ -12,7 +12,7 @@ main:
         ret
 ```
 
-The first two instructions are saving the caller's base pointer onto the stack and setting a new base pointer.
-It is then calling the function `sleep` with the value `2` as argument. According to the [man](https://man7.org/linux/man-pages/man3/sleep.3.html), this means the program will sleep for 2 seconds.
-It is then restoring the caller's base pointer before returning.
+The first two instructions are saving the caller's base pointer onto the stack and setting a new base pointer.  
+It is then calling the function `sleep` with the value `2` as argument. According to the [man](https://man7.org/linux/man-pages/man3/sleep.3.html), this means the program will sleep for 2 seconds.  
+It is then restoring the caller's base pointer before returning.  
 
